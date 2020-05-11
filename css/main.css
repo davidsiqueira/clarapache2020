@@ -272,6 +272,11 @@ fill:#fff;
     padding:8px;
     font-size: 16px;
 }
+@media screen and (min-width:1024px){
+    .options .option-item{
+        width:30%
+    }
+}
 .options .option-item .label-code{
     font-size: 0.9em;
     font-weight: bold;
@@ -329,6 +334,10 @@ fill:#fff;
 }
 .color-block.c13{
     background-color:#527C8A
+}
+.color-block.c14{
+    background-color:rgb(212,145,150);
+    background-image:url(../img/padroes/c14.jpg)
 }
 /* ==========================================================================
    Helper classes
