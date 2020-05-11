@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -98,31 +98,47 @@ textarea {
    ========================================================================== */
 html, body{
     height:100%;
-    background: #f1f2f3;
+    background: #ffd2be;
     /*animation: background-animation 35s infinite;*/
     background-size:cover;
     background-repeat:repeat;
 }
-.st0{
-    animation: fill-animation 15s infinite;
-}
+
 body, p{
-    font-family: 'Jost', sans-serif;
-    font-weight:normal;
+font-family: 'Raleway', sans-serif;
+font-weight:400;
     font-size:17pt;
 }
 h1,h2,h3{
-    font-family: 'Jost', sans-serif;
-    font-weight: bold;
+font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 h1{margin-top:0;}
 h2{
     margin-bottom:0;
 }
+.logo-clara{
+  position:relative;
+  height:140px;
+  width:280px;
+  margin: 20px auto;
+}
+.logo-clara .icon{
+  width:140px;
+  position:absolute;
+  left:0;
+  top:0;
+}
+.logo-clara .name{
+  position:absolute;
+  left:130px;
+  top:10px;
+  line-height: 1
+}
 
 .presentation.container{
-    max-width:600px;
-    padding: 10% 20px 20px;
+    max-width:800px;
+    padding: 20px 20px;
     margin:0 auto;
 }
 
@@ -130,7 +146,7 @@ h2{
     Display:flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     position:relative;
     z-index:1;
 }
@@ -138,11 +154,11 @@ h2{
 .contactLinks a{
     display:block;
     margin:8px;
-    color: #000;
+    color: #222;
     text-decoration: none;
     background-color: #fff;
     padding: 8px 16px;
-    border-radius: 8px 2px;
+    border-radius: 16px;
     transition: all .1s ease;
     position:relative;
     z-index:auto;
@@ -151,7 +167,7 @@ h2{
     display:block;
     content:"";
     background-color: #fff;
-    border-radius: 8px 2px;
+    border-radius: 16px;
     transition: all .4s ease;
     position:absolute;
     width:100%;
@@ -166,7 +182,7 @@ h2{
     display:block;
     content:"";
     background-color: transparent;
-    border-radius: 8px 2px;
+    border-radius: 16px;
     transition: all .4s ease;
     position:absolute;
     width:100%;
@@ -175,7 +191,7 @@ h2{
     left:0;
     z-index:-1;
     border:2px solid #fff;
-    box-sizing:border-box;    
+    box-sizing:border-box;
 
 }
 .contactLinks a:hover:before{
@@ -183,36 +199,19 @@ h2{
 }
 .contactLinks a:hover:after{
    margin:8px -8px;
-  
+
 }
 .contactLinks a:hover{
-    background-color:#000;
+    background-color:#222;
     color:#fff;
-    border-radius:2px 8px;
-  
+
 }
 
 
 
-
-@keyframes background-animation {
-  0%   { background: #ff9167; }
-  25% {background: #e6d139}
-  50% {background: #50d0b8}
-  75% {background: #987cef}
-  100% {     background: #ff9167; }
+.text-center{
+  text-align: center;
 }
-
-@keyframes fill-animation {
-  0%   { fill: #987cef; }
-  25% {fill: #e6d139}
-  50% {fill: #ff9167
-  75% {fill: #50d0b8}}
-  100% {     fill: #987cef; }
-}
-
-
-
 
 
 /* ==========================================================================
@@ -387,3 +386,4 @@ h2{
         page-break-after: avoid;
     }
 }
+
