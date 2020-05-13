@@ -277,6 +277,19 @@ fill:#fff;
         width:30%
     }
 }
+.option-item.esgotada{
+    opacity:0.4;
+}
+.option-item.esgotada .tag{
+    color:#AF236F;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.section-title{
+    width:100%;
+    clear:both;
+    text-align: center;
+}
 .options .option-item .label-code{
     font-size: 0.9em;
     font-weight: bold;
@@ -298,46 +311,72 @@ fill:#fff;
     margin-bottom:4px;
 }
 .color-block.c2{
-    background-color:#0E3456
+    background-color:#0E3456;
+    background-image:url(../img/padroes/c2.jpg)
 }
 .color-block.c3{
-    background-color:#521A7E
+    background-color:#521A7E;
+    background-image:url(../img/padroes/c3.jpg)
 }
 .color-block.c4{
-    background-color:#333
+    background-color:#333;
+    background-image:url(../img/padroes/c14.jpg)
 }
 .color-block.c5{
-    background-color:#FFE5CD
+    background-color:#FFE5CD;
+    background-image:url(../img/padroes/c5.jpg)
 }
 .color-block.c6{
-    background-color:#CFB788
+    background-color:#CFB788;
+    background-image:url(../img/padroes/c6.jpg)
 }
 .color-block.c7{
     background-color:#fafbfc;
     border:1px solid #f1f2f3;
     box-sizing: border-box;
+    background-image:url(../img/padroes/c7.jpg)
 }
 .color-block.c8{
-    background-color:#FFD861
+    background-color:#FFD861;
+    background-image:url(../img/padroes/c8.jpg)
 }
 .color-block.c9{
-    background-color:#AF236F
+    background-color:#AF236F;
+    background-image:url(../img/padroes/c9.jpg)
 }
 .color-block.c10{
-    background-color:#FCF9F0
+    background-color:#FCF9F0;
+    border:1px solid #ccc;
+    background-image:url(../img/padroes/c10.jpg)
 }
 .color-block.c11{
-    background-color:#0F4CE9
+    background-color:#0F4CE9;
+    background-image:url(../img/padroes/c11.jpg)
 }
 .color-block.c12{
-    background-color:#AF233C
+    background-color:#AF233C;
+    background-image:url(../img/padroes/c12.jpg)
 }
 .color-block.c13{
-    background-color:#527C8A
+    background-color:#527C8A;
+    background-image:url(../img/padroes/c13.jpg)
 }
 .color-block.c14{
     background-color:rgb(212,145,150);
     background-image:url(../img/padroes/c14.jpg)
+}
+
+.color-block.c15{
+    background-color:rgb(212,145,150);
+    background-image:url(../img/padroes/c15.jpg)
+}
+.color-block.c16{
+    background-color:rgb(212,145,150);
+    background-image:url(../img/padroes/c16.jpg)
+}
+.color-block.c17{
+    background-color:rgb(212,145,150);
+    background-image:url(../img/padroes/c17.jpg)
 }
 /* ==========================================================================
    Helper classes
