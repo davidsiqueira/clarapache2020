@@ -255,11 +255,15 @@ fill:#fff;
     font-weight: bold;
     background-color:#fff;
 }
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+
+}
 .white-container{
     background-color:#fff;
     border-radius:24px;
-    max-width: 1200px;
-    margin:0 auto 8px;
+    margin-bottom: 8px;
     padding:32px;
 }
 .white-container h3{
@@ -329,7 +333,7 @@ fill:#fff;
 }
 .color-block.c4{
     background-color:#333;
-    background-image:url(../img/padroes/c14.jpg)
+    background-image:url(../img/padroes/c4.jpg)
 }
 .color-block.c5{
     background-color:#FFE5CD;
