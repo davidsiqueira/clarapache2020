@@ -290,6 +290,11 @@ fill:#fff;
         width:30%
     }
 }
+@media screen and (min-width:520px){
+    .options .option-item{
+        width:48%
+    }
+}
 .option-item.esgotada{
     opacity:0.4;
 }
