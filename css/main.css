@@ -296,7 +296,24 @@ fill:#fff;
     }
 }
 .option-item.esgotada{
-    opacity:0.4;
+    opacity:0.5;
+    position:relative;
+}
+.option-item.esgotada:before{
+    content:"ESGOTADA";
+    color:#fff;
+    font-weight:bold;
+    padding:8px 16px;
+    display:block;
+    position:absolute;
+    left:calc(50% - 45px);
+    top:60px;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:4px;
+
+
+
+
 }
 .option-item.esgotada .tag{
     color:#AF236F;
