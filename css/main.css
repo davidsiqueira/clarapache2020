@@ -102,6 +102,7 @@ html, body{
     /*animation: background-animation 35s infinite;*/
     background-size:200px;
     background-repeat:repeat;
+    background-attachment:fixed;
     background-image: url(../img/waves-texture.png);
 }
 
@@ -175,7 +176,7 @@ fill:#fff;
     text-decoration: none;
     background-color: #fff;
     padding: 8px 16px;
-    border-radius: 16px;
+    border-radius: 8px;
     transition: all .1s ease;
     position:relative;
     z-index:auto;
