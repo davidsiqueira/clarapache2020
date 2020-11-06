@@ -100,8 +100,9 @@ html, body{
     height:100%;
     background: #FDAA8F;
     /*animation: background-animation 35s infinite;*/
-    background-size:cover;
+    background-size:200px;
     background-repeat:repeat;
+    background-image: url(../img/waves-texture.png);
 }
 
 body, p{
@@ -285,6 +286,7 @@ fill:#fff;
     padding:8px;
     font-size: 16px;
 }
+
 @media screen and (min-width:1024px){
     .options .option-item{
         width:30%
@@ -310,10 +312,6 @@ fill:#fff;
     top:60px;
     background-color:rgba(0,0,0,0.8);
     border-radius:4px;
-
-
-
-
 }
 .option-item.esgotada .tag{
     color:#AF236F;
@@ -412,6 +410,75 @@ fill:#fff;
 .color-block.c17{
     background-color:rgb(212,145,150);
     background-image:url(../img/padroes/c17.jpg)
+}
+
+.full-width-img{
+    background-size:cover;
+    height:200px;
+    width:100%;
+    border-radius:16px;
+}
+@media screen and (min-width:520px){
+    .full-width-img{
+        height:400px;
+    }
+}
+/* Menu */
+.menu{
+ margin:0 auto;
+ padding:4px;
+ background-color: rgba(234, 132, 99, 0.5);
+ border-radius:16px;
+ display:flex;
+ flex-wrap: wrap;
+ width:94%;  
+ max-width: 800px;  
+ list-style: none;
+ justify-content: center;
+}
+.menu li{
+    padding:0;
+    margin:0;
+}
+.menu li.current a{
+    background-color:#fff
+}
+.menu li a{
+    display:block;
+    padding:16px;
+    margin:0 2px;
+    border-radius:12px;
+    transition:all 0.2s ease;
+    text-decoration: none;
+    color: #702e1e;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: #fff;
+}
+.bloco-curso{ 
+    display:flex;
+    flex-wrap: wrap;
+    padding:8px
+}
+.img-curso{
+    overflow:hidden;
+    width:280px;
+    height:280px;
+    background-size:cover;
+    border-radius:16px;
+    margin:4px;
+}
+.desc-curso{
+    padding:4px 8px;
+}
+
+footer{
+    color: #d06643;
+    text-align: center;
+    padding:8px 8px 16px
 }
 /* ==========================================================================
    Helper classes
