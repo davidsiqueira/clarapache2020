@@ -436,6 +436,7 @@ fill:#fff;
  max-width: 800px;  
  list-style: none;
  justify-content: center;
+ margin-bottom:16px;
 }
 .menu li{
     padding:0;
